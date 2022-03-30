@@ -1,7 +1,7 @@
 #include <iostream>
 
 /* this is just a test*/
-int fib(int n);
+
 int main(int argc, char **argv)
 {
     int n, r, k;
@@ -18,15 +18,4 @@ int main(int argc, char **argv)
         }
     }
     return 0;
-}
-int fib(int n)
-{
-    int temp = 1;
-
-    if (n > 2)
-        temp = fib(n - 1) + fib(n - 2);
-    return temp;
-    if (n = 1)
-        temp = 0;
-    return temp;
 }
